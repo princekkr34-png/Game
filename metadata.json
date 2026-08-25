@@ -1,0 +1,7 @@
+{
+  "name": "ReelsPay",
+  "description": "Subscription-based premium short-video platform with UPI AutoPay, Paywall gating, vertical Reels feed, and Admin Studio",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

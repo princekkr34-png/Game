@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center Play Icon with Reels outline -->
+    <!-- Film Reel / Video Frame Outer Ring -->
+    <path
+        android:pathData="M34,26 C30,26 26,30 26,34 L26,74 C26,78 30,82 34,82 L74,82 C78,82 82,78 82,74 L82,34 C82,30 78,26 74,26 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+    <!-- Gradient Play Triangle inside -->
+    <path android:pathData="M46,38 L68,54 L46,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="46"
+                android:startY="38"
+                android:endX="68"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFD700" />
+                <item android:offset="1.0" android:color="#FF007A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- AutoPay badge icon in bottom corner -->
+    <path
+        android:pathData="M66,66 C66,62 70,58 75,58 L86,58 C90,58 94,62 94,66 L94,78 C94,82 90,86 86,86 L75,86 C70,86 66,82 66,78 Z"
+        android:fillColor="#00E676" />
+    <path
+        android:pathData="M78,63 L82,63 M76,68 L84,68 M80,63 L80,79 M76,73 L83,81"
+        android:strokeWidth="1.8"
+        android:strokeColor="#0B2313" />
+</vector>
+
